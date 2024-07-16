@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* .vlc {
+  height: 100vh;
+} */
+header {
+  height: 3rem;
+}
+
+main {
+   height: calc(100vh - 5rem); 
+  border: solid 2px rgb(12, 9, 9);
+  
+   
+}
+footer {
+  height: 2rem;
+}
+
+.title-bar {
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  gap: 0.5rem;
+}
+img {
+  height: 1rem;
+}
+
+.menu-bar {
+  height: 50%;
+  display: flex;
+
+  gap: 1.5rem;
+  margin-left: 10px;
+  margin-top:  5px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none; /* Removes bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+.menu1 {
+  position: relative;
+}
+.menu2 {
+  position: absolute;
+  margin-top: 1.2rem;
+  display: none;
+  background-color:white;
+  width:5rem;
+   padding-left: 1rem;
+   
+   
+}
+
+.menu-list:hover .menu2{
+   display: block;
+}
+.videoInput{
+   display: none;
+}
+ 
+.video{
+   height: 100%;
+}
+
+.toast{
+   
+  font-size: 40px;
+  position: fixed;
+  top: 60px;
+  left: 1250px;
+  color: white;
+} 
+  
+ 
